@@ -1,11 +1,11 @@
 <template>
   <navbar-main />
-    <div class="container">
+    <div class="container-flued">
       <div class="row">
         <div class="col-3">
           <SidebarHome />
         </div>
-        <div class="col">
+        <div class="col-9">
           <router-view/>
         </div>
       </div>
@@ -33,17 +33,15 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
 }
-
 nav {
   padding: 30px;
 }
-
 nav a {
   font-weight: bold;
   color: #2c3e50;
 }
-
-nav a.router-link-exact-active {
-  color: #42b983;
+h1 {
+  padding: 0.5rem;
 }
+
 </style>

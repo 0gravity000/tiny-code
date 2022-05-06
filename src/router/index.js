@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import DigitalClock from '../views/contents/DigitalClock.vue'
+import PlayingCards from '../views/contents/PlayingCards.vue'
 
 const routes = [
   {
@@ -20,6 +21,11 @@ const routes = [
     path: '/digital-clock',
     name: 'digital-clock',
     component: DigitalClock
+  },
+  {
+    path: '/playing-cards',
+    name: 'playing-cards',
+    component: PlayingCards
   },
 ]
 
