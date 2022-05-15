@@ -7,6 +7,19 @@
       <li class="list-group-item">
         <router-link to="/playing-cards">トランプ</router-link>
       </li>
+      <li class="list-group-item">
+        <router-link to="/closures-experiment-01">クロージャ実験01</router-link>
+      </li>
+      <!--       
+      <li class="list-group-item">
+      <details>
+      <summary>xxx</summary>
+        <li class="list-group-item">
+          <router-link to="/closures-experiment-01">xxx</router-link>
+        </li>
+      </details>
+      </li>
+       -->
     </ul>
   </div>
 </template>

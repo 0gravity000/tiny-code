@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import DigitalClock from '../views/contents/DigitalClock.vue'
 import PlayingCards from '../views/contents/PlayingCards.vue'
+import ClosuresExperiment01 from '../views/contents/ClosuresExperiment01.vue'
 
 const routes = [
   {
@@ -26,6 +27,11 @@ const routes = [
     path: '/playing-cards',
     name: 'playing-cards',
     component: PlayingCards
+  },
+  {
+    path: '/closures-experiment-01',
+    name: 'closures-experiment-01',
+    component: ClosuresExperiment01
   },
 ]
 
