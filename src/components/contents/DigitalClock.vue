@@ -7,15 +7,23 @@
 
 <script>
 export default {
+  data() {
+    return {
+      excutedTimer: ""
+    }
+  },
   mounted() {
     this.displayTime()
+  },
+  unmounted() {
+    clearTimeout(this.excutedTimer)
   },
   methods:{
     displayTime: function(){
       var elt = document.getElementById("digital-clock");
       var now = new Date();
       elt.innerHTML = now.toLocaleTimeString();
-      setTimeout(this.displayTime, 1000);
+      this.excutedTimer = setTimeout(this.displayTime, 1000);
     }
   }
 }

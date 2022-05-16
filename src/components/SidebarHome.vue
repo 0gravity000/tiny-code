@@ -5,6 +5,9 @@
         <router-link to="/digital-clock">デジタル時計</router-link>
       </li>
       <li class="list-group-item">
+        <router-link to="/analog-clock">アナログ時計</router-link>
+      </li>
+      <li class="list-group-item">
         <router-link to="/playing-cards">トランプ</router-link>
       </li>
       <li class="list-group-item">

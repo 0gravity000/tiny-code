@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import DigitalClock from '../components/contents/DigitalClock.vue'
+import AnalogClock from '../components/contents/AnalogClock.vue'
 import PlayingCards from '../components/contents/PlayingCards.vue'
 import ClosuresExperiment01 from '../components/contents/ClosuresExperiment01.vue'
 //import DOMExperiment01 from '../views/contents/DOMExperiment01.vue'
@@ -23,6 +24,11 @@ const routes = [
     path: '/digital-clock',
     name: 'digital-clock',
     component: DigitalClock
+  },
+  {
+    path: '/analog-clock',
+    name: 'analog-clock',
+    component: AnalogClock
   },
   {
     path: '/playing-cards',
