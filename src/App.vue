@@ -1,6 +1,6 @@
 <template>
   <navbar-main />
-    <div class="container-flued">
+    <div class="container-fluid">
       <div class="row">
         <div class="col-3">
           <SidebarHome />
