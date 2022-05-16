@@ -10,9 +10,6 @@
       <li class="list-group-item">
         <router-link to="/closures-experiment-01">クロージャ実験01</router-link>
       </li>
-      <li class="list-group-item">
-        <router-link to="/dom-experiment-01">DOM実験01</router-link>
-      </li>
       <!--       
       <li class="list-group-item">
       <details>

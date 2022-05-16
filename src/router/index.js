@@ -1,9 +1,9 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
-import DigitalClock from '../views/contents/DigitalClock.vue'
-import PlayingCards from '../views/contents/PlayingCards.vue'
-import ClosuresExperiment01 from '../views/contents/ClosuresExperiment01.vue'
-import DOMExperiment01 from '../views/contents/DOMExperiment01.vue'
+import DigitalClock from '../components/contents/DigitalClock.vue'
+import PlayingCards from '../components/contents/PlayingCards.vue'
+import ClosuresExperiment01 from '../components/contents/ClosuresExperiment01.vue'
+//import DOMExperiment01 from '../views/contents/DOMExperiment01.vue'
 
 const routes = [
   {
@@ -34,11 +34,14 @@ const routes = [
     name: 'closures-experiment-01',
     component: ClosuresExperiment01
   },
+
+  /*
   {
     path: '/dom-experiment-01',
     name: 'dom-experiment-01',
     component: DOMExperiment01
   },
+  */
 ]
 
 const router = createRouter({
