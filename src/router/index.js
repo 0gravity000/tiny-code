@@ -5,6 +5,7 @@ import AnalogClock from '../components/contents/AnalogClock.vue'
 import PlayingCards from '../components/contents/PlayingCards.vue'
 import GeoLocation from '../components/contents/GeoLocation.vue'
 import ClosuresExperiment01 from '../components/contents/ClosuresExperiment01.vue'
+import CanvasExperiment01 from '../components/contents/CanvasExperiment01.vue'
 //import DOMExperiment01 from '../views/contents/DOMExperiment01.vue'
 
 const routes = [
@@ -45,6 +46,11 @@ const routes = [
     path: '/closures-experiment-01',
     name: 'closures-experiment-01',
     component: ClosuresExperiment01
+  },
+  {
+    path: '/canvas-experiment-01',
+    name: 'canvas-experiment-01',
+    component: CanvasExperiment01
   },
 
   /*

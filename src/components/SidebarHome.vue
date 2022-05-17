@@ -16,6 +16,9 @@
       <li class="list-group-item">
         <router-link to="/closures-experiment-01">クロージャ実験01</router-link>
       </li>
+      <li class="list-group-item">
+        <router-link to="/canvas-experiment-01">Canvas実験01</router-link>
+      </li>
       <!--       
       <li class="list-group-item">
       <details>
