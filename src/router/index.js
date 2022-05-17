@@ -3,6 +3,7 @@ import HomeView from '../views/HomeView.vue'
 import DigitalClock from '../components/contents/DigitalClock.vue'
 import AnalogClock from '../components/contents/AnalogClock.vue'
 import PlayingCards from '../components/contents/PlayingCards.vue'
+import GeoLocation from '../components/contents/GeoLocation.vue'
 import ClosuresExperiment01 from '../components/contents/ClosuresExperiment01.vue'
 //import DOMExperiment01 from '../views/contents/DOMExperiment01.vue'
 
@@ -34,6 +35,11 @@ const routes = [
     path: '/playing-cards',
     name: 'playing-cards',
     component: PlayingCards
+  },
+  {
+    path: '/geo-location',
+    name: 'geo-location',
+    component: GeoLocation
   },
   {
     path: '/closures-experiment-01',

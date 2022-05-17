@@ -11,6 +11,9 @@
         <router-link to="/playing-cards">トランプ</router-link>
       </li>
       <li class="list-group-item">
+        <router-link to="/geo-location">位置情報</router-link>
+      </li>
+      <li class="list-group-item">
         <router-link to="/closures-experiment-01">クロージャ実験01</router-link>
       </li>
       <!--       
